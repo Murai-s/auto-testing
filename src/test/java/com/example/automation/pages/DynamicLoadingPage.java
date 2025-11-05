@@ -3,7 +3,6 @@ package com.example.automation.pages;
 import com.example.automation.base.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class DynamicLoadingPage extends BasePage {
 

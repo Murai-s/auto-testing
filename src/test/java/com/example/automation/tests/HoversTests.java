@@ -23,7 +23,7 @@ public class HoversTests extends BaseTest {
         hoversPage.hoverOverAvatar(0);
         WebElement firstAvatarCaption = hoversPage.getCaptionForAvatar(0);
         Assert.assertTrue(firstAvatarCaption.isDisplayed(), "Подпись для первого пользователя не появилась!");
-        Assert.assertTrue(firstAvatarCaption.getText().contains("name: user1"), "Текст подписи для user1 неверный");;
+        Assert.assertTrue(firstAvatarCaption.getText().contains("name: user1"), "Текст подписи для user1 неверный");
     }
 
     @Test
